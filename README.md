@@ -1,8 +1,8 @@
 # Honista patches
 
-Private testing repository for the Morphe **Honista v13 complete local fixes** patch bundle.
+Testing repository for the Morphe **Honista v13 complete local fixes** patch bundle.
 
-Download `honista-patches-1.0.0.mpp` from the **v1.0.0** test release and import it into Morphe Manager as a **Local** patch source. Select the original Honista v13 ARM64 APK and the complete local fixes patch. Supported package/version: `cc.honista.app`, `426.0.0.37.69` (version code `383207253`).
+In Morphe Manager, add `https://github.com/Manishrdy/honista-patches` as a **Remote** patch source. The repository root `patches-bundle.json` points to the **v1.0.0** test release. Alternatively, download `honista-patches-1.0.0.mpp` from that release and import it as a **Local** source. Select the original Honista v13 ARM64 APK and the complete local fixes patch. Supported package/version: `cc.honista.app`, `426.0.0.37.69` (version code `383207253`).
 
 See [the patch project guide](honista-patches/README.md) for compatibility checks, included changes, building, and signing instructions. Updating an existing patched installation requires its original signing key, which stays outside Git.
 

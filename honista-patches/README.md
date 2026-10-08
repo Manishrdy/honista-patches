@@ -12,7 +12,7 @@ The patch checks package/version/code and canonical DEX fingerprints of all 23 o
 
 ## Apply using Morphe Manager
 
-1. Copy `honista-patches-1.0.0.mpp` and the original APK to your phone.
+1. Add `https://github.com/Manishrdy/honista-patches` as a Remote patch source, or copy `honista-patches-1.0.0.mpp` and the original APK to your phone for local import.
 2. In Manager, open **Add patch source → Local → Select patch source files** and select the `.mpp`. The exact entry point can vary by Manager release.
 3. Select Honista's original APK from storage. Select **Honista v13 complete local fixes** from **Honista Local Patches**.
 4. Patch with Manager's default settings, then install the result using the signing-key instructions below.
@@ -84,4 +84,4 @@ Built using Morphe patches plugin 1.3.2 and patcher API 1.5.0, then successfully
 
 Android bundle loading was prepared using the official Manager 1.34.0 runtime, but could not execute because ADB reported no connected device. Manager UI import/patch/install is therefore not claimed as device-tested. No app was installed or removed during bundle creation. Earlier Android filtering tests and live observations belong to the installed build documented in section 23 of the action log.
 
-The bundle is local-import ready. An auto-update source URL like Piko's needs a hosted release and `patches-bundle.json`; this project has not been published. Version/signature/download URLs must be real before registering a remote source.
+The public repository now includes `patches-bundle.json`, which resolves the remote source to the hosted v1.0.0 MPP asset. Update that descriptor when publishing future bundle versions. Local MPP import remains available.
