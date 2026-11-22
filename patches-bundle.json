@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "created_at": "2026-11-22T00:00:00",
+  "created_at": "2026-11-22T20:24:25",
   "description": "Honista v13 complete local fixes — re-ported to 426.0.0.37.70. Supports cc.honista.app 426.0.0.37.70 (383207254), original ARM64 APK only. Includes local premium features, sponsored/suggested filtering and retained startup compatibility fixes.",
   "download_url": "https://github.com/Manishrdy/honista-patches/releases/download/v1.1.0/honista-patches-1.1.0.mpp",
   "page_url": "https://github.com/Manishrdy/honista-patches/releases/tag/v1.1.0"
