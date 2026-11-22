@@ -31,7 +31,7 @@ val verifyBundle by tasks.registering(JavaExec::class) {
     classpath = sourceSets["test"].runtimeClasspath
     mainClass.set("local.honista.VerifyBundleKt")
     maxHeapSize = "6g"
-    args(file("build/libs/patches-1.0.0.mpp").absolutePath,
+    args(file("build/libs/patches-${project.version}.mpp").absolutePath,
         rootProject.file("../apk/Honista_v13.1__x64.apk").absolutePath,
         rootProject.file("../output/Honista-v13.1-sponsored-filter-fixed.apk").absolutePath,
         rootProject.file("../analysis/morphe-verified").absolutePath,
@@ -42,7 +42,7 @@ val verifyRejection by tasks.registering(JavaExec::class) {
     classpath = sourceSets["test"].runtimeClasspath
     mainClass.set("local.honista.VerifyBundleKt")
     maxHeapSize = "6g"
-    args(file("build/libs/patches-1.0.0.mpp").absolutePath,
+    args(file("build/libs/patches-${project.version}.mpp").absolutePath,
         rootProject.file("../output/Honista-v13.1-sponsored-filter-fixed.apk").absolutePath,
         rootProject.file("../output/Honista-v13.1-sponsored-filter-fixed.apk").absolutePath,
         rootProject.file("../analysis/morphe-rejected").absolutePath,
