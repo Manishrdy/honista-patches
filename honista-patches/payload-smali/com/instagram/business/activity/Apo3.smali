@@ -47,7 +47,7 @@
 
     invoke-virtual {p0}, Lcom/instagram/business/activity/Apo3;->L()V
     :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :goto_0
 
     goto :goto_0
 
@@ -132,39 +132,17 @@
 
     const-string v1, "HonistaInit"
 
-    const-string v2, "startup request unavailable"
+    const-string v2, "startup request unavailable, skipping to main"
 
     invoke-static {v1, v2, v5}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    :try_start_2
     invoke-virtual {p0}, Landroid/app/Activity;->isDestroyed()Z
 
     move-result v1
 
     if-nez v1, :cond_1
 
-    new-instance v1, Landroid/os/Handler;
-
-    invoke-direct {v1}, Landroid/os/Handler;-><init>()V
-
-    new-instance v2, LX/h3;
-
-    invoke-direct {v2, p0}, LX/h3;-><init>(Lcom/instagram/business/activity/Apo3;)V
-
-    const-wide/16 v3, 0x7d0
-
-    invoke-virtual {v1, v2, v3, v4}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
-    :try_end_2
-    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_1
-
-    goto :goto_0
-
-    :catch_1
-    move-exception v1
-
-    invoke-static {v1}, LX/lк乂丩хЫ乡丠φ丵世Χд举τ久丿乤丳丞丠к乢乚;->b(Ljava/lang/Exception;)V
-
-    invoke-virtual {p0, v0}, Lcom/instagram/business/activity/Apo3;->J(Z)V
+    invoke-virtual {p0}, Lcom/instagram/business/activity/Apo3;->K()V
 
     :cond_1
     :goto_0
