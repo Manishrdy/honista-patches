@@ -1,7 +1,7 @@
 {
-  "version": "1.1.4",
-  "created_at": "2026-11-24T15:20:11",
-  "description": "Honista v13 complete local fixes — fix launch crashes (VerifyError, IncompatibleClassChangeError), fix startup refresh loop, and corrected interceptor target. Supports original cc.honista.app 426.0.0.37.70 (383207254) ARM64 APK.",
-  "download_url": "https://github.com/Manishrdy/honista-patches/releases/download/v1.1.4/patches-1.1.4.mpp",
-  "page_url": "https://github.com/Manishrdy/honista-patches/releases/tag/v1.1.4"
+  "version": "1.1.5",
+  "created_at": "2026-11-24T15:42:15",
+  "description": "Fix Samsung One UI 7 Choreographer crash: remove redundant startActivity from Apo3.K() that was triggering onNewIntent() during Activity transition while Samsung's Choreographer performed its IdsController lookup. Supports original cc.honista.app 426.0.0.37.70 (383207254) ARM64 APK.",
+  "download_url": "https://github.com/Manishrdy/honista-patches/releases/download/v1.1.5/patches-1.1.5.mpp",
+  "page_url": "https://github.com/Manishrdy/honista-patches/releases/tag/v1.1.5"
 }
