@@ -171,7 +171,7 @@
     return-void
 .end method
 
-.method public final s()V
+.method private s()V
     .locals 0
 
     invoke-virtual {p0}, Lcom/instagram/business/activity/Apo3;->K()V
