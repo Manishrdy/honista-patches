@@ -12,11 +12,13 @@
 
     invoke-static {p0, v0}, LX/qغ乆لءлΚСλйЗ丧ю两ωθ乧乄ξυ並书乜ح;->j2(Landroid/content/Context;I)V
 
+    invoke-static {}, LX/SamsungChoreographerFix;->apply()V
+
     invoke-direct {p0}, Lcom/instagram/business/activity/Apo3;->M()V
 
     const-string v0, "HonistaInit"
 
-    const-string v1, "init gate skipped"
+    const-string v1, "init gate ready"
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
