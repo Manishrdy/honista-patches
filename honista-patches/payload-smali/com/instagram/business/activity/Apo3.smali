@@ -12,7 +12,7 @@
 
     invoke-static {p0, v0}, LX/qغ乆لءлΚСλйЗ丧ю两ωθ乧乄ξυ並书乜ح;->j2(Landroid/content/Context;I)V
 
-    invoke-virtual {p0}, Lcom/instagram/business/activity/Apo3;->M()V
+    invoke-direct {p0}, Lcom/instagram/business/activity/Apo3;->M()V
 
     const-string v0, "HonistaInit"
 
@@ -39,7 +39,7 @@
     const/4 v0, 0x1
 
     :try_start_0
-    invoke-static {p0}, LX/ko;->b(Landroid/content/Context;)Z
+    invoke-static {p0}, LX/fκбДСыЯЮМχΞκ両ξΒذ丏丞д乕乓إ乨α;->b(Landroid/content/Context;)Z
 
     move-result v1
 
@@ -59,7 +59,7 @@
 
     const v2, 0xc3501
 
-    invoke-static {v2}, LX/io;->a(I)Ljava/lang/String;
+    invoke-static {v2}, LX/Rd;->a(I)Ljava/lang/String;
 
     move-result-object v2
 
@@ -87,7 +87,7 @@
 
     const v3, 0x61a8f
 
-    invoke-static {v3}, LX/io;->a(I)Ljava/lang/String;
+    invoke-static {v3}, LX/Rd;->a(I)Ljava/lang/String;
 
     move-result-object v3
 
@@ -147,9 +147,9 @@
 
     invoke-direct {v1}, Landroid/os/Handler;-><init>()V
 
-    new-instance v2, LX/c7;
+    new-instance v2, LX/h3;
 
-    invoke-direct {v2, p0}, LX/c7;-><init>(Lcom/instagram/business/activity/Apo3;)V
+    invoke-direct {v2, p0}, LX/h3;-><init>(Lcom/instagram/business/activity/Apo3;)V
 
     const-wide/16 v3, 0x7d0
 
@@ -162,7 +162,7 @@
     :catch_1
     move-exception v1
 
-    invoke-static {v1}, LX/yg;->b(Ljava/lang/Exception;)V
+    invoke-static {v1}, LX/lк乂丩хЫ乡丠φ丵世Χд举τ久丿乤丳丞丠к乢乚;->b(Ljava/lang/Exception;)V
 
     invoke-virtual {p0, v0}, Lcom/instagram/business/activity/Apo3;->J(Z)V
 
