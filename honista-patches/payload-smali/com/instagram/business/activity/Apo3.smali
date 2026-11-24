@@ -2,7 +2,7 @@
 .super Linfo/my/app/common/base/PasswordAwareBaseActivity;
 
 .method public final K()V
-    .locals 3
+    .locals 2
 
     const/4 v0, 0x1
 
@@ -16,17 +16,9 @@
 
     const-string v0, "HonistaInit"
 
-    const-string v1, "init gate skipped, opening main"
+    const-string v1, "init gate skipped"
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    new-instance v0, Landroid/content/Intent;
-
-    const-class v1, Lcom/instagram/mainactivity/InstagramMainActivity;
-
-    invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
-
-    invoke-virtual {p0, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
