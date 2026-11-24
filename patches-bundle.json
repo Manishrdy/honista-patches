@@ -1,7 +1,7 @@
 {
-  "version": "1.1.6",
-  "created_at": "2026-11-24T16:11:23",
-  "description": "Fix Samsung One UI 7 Choreographer NPE (IdsController crash at doFrame:1235)",
-  "download_url": "https://raw.githubusercontent.com/Manishrdy/honista-patches/main/dist/patches-1.1.6.mpp",
-  "page_url": "https://github.com/Manishrdy/honista-patches/releases/tag/v1.1.6"
+  "version": "1.1.7",
+  "created_at": "2026-11-24T16:44:00",
+  "description": "Fix Samsung One UI 7 Resources NPE in AppMetrica analytics background thread",
+  "download_url": "https://raw.githubusercontent.com/Manishrdy/honista-patches/main/dist/patches-1.1.7.mpp",
+  "page_url": "https://github.com/Manishrdy/honista-patches/releases/tag/v1.1.7"
 }
