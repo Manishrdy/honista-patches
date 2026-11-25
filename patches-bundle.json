@@ -1,7 +1,7 @@
 {
-  "version": "1.1.11",
-  "created_at": "2026-11-25T21:30:00",
-  "description": "Debug: add HonistaHTTP logging to OkHttp interceptor to diagnose login failure",
-  "download_url": "https://raw.githubusercontent.com/Manishrdy/honista-patches/main/dist/patches-1.1.11.mpp",
-  "page_url": "https://github.com/Manishrdy/honista-patches/releases/tag/v1.1.11"
+  "version": "1.1.12",
+  "created_at": "2026-11-25T22:00:00",
+  "description": "Debug: add HonistaBody response body logging to diagnose login failure",
+  "download_url": "https://raw.githubusercontent.com/Manishrdy/honista-patches/main/dist/patches-1.1.12.mpp",
+  "page_url": "https://github.com/Manishrdy/honista-patches/releases/tag/v1.1.12"
 }

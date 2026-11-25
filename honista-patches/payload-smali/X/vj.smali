@@ -386,6 +386,14 @@
     const-string v10, "HonistaHTTP"
     invoke-static {v10, v9}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
+    const-wide/16 v9, 0x800
+    invoke-virtual {v3, v9, v10}, Lokhttp3/Response;->peekBody(J)Lokhttp3/ResponseBody;
+    move-result-object v9
+    invoke-virtual {v9}, Lokhttp3/ResponseBody;->string()Ljava/lang/String;
+    move-result-object v9
+    const-string v10, "HonistaBody"
+    invoke-static {v10, v9}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     sget-object v4, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-interface {v1, v4}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
